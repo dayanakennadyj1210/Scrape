@@ -20,7 +20,7 @@ try:
     #puclic access unblock panna
     response = client.delete_public_access_block(
         Bucket=bucket_name,
-        ExpectedBucketOwner='026090535783'
+        ExpectedBucketOwner='911167899469'
     )
 
     #response = client.get_bucket_ownership_controls(
